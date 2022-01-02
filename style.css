@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refreshPage {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+}
+#startButton {
+    transition: opacity .75s;
+}
